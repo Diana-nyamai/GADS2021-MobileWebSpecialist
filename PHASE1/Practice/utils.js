@@ -3,5 +3,5 @@ function changeMessage(message){
 }
 
 function displayReview(review){
-    document.getElementById('review').textContent = review
+    document.getElementById('see-review').textContent = review
 }
