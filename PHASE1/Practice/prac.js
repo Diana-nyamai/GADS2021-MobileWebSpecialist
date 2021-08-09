@@ -9,7 +9,7 @@ button.addEventListener('click', function(){
     }
     else{
         review.classList.add('hide');
-        
+        button.textContent = 'see review'
     }
 });
 
