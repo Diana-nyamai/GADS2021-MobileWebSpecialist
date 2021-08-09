@@ -1,4 +1,30 @@
-const button = document.getElementById('see-review');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*const button = document.getElementById('see-review');
 
 button.addEventListener('click', function(){
     const review = document.getElementById('review');
@@ -11,4 +37,4 @@ button.addEventListener('click', function(){
         review.classList.add('hide');
         button.textContent = 'see review'
     }
-});
+});*/
