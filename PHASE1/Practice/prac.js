@@ -1,1 +1,3 @@
-changeMessage('i am a girl');
+let x = 123;
+
+changeMessage(x)
