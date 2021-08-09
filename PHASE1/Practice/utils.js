@@ -1,3 +1,3 @@
 function changeMessage(message){
-      document.getElementById(par).textContent = message
+      document.getElementById('par').textContent = message
 }
