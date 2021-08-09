@@ -1,1 +1,1 @@
-changeMessage('hhh');
+changeMessage('i am a girl');
