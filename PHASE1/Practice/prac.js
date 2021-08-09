@@ -5,8 +5,10 @@ button.addEventListener('click', function(){
 
     if (review.classList.contains('hide')){
         review.classList.remove('hide');
+        button.textContent = 'close review'
     }
     else{
         review.classList.add('hide');
+        button.textContent = 'see review'
     }
 });
