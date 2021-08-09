@@ -1,3 +1,3 @@
-function changeMessage(click){
-      document.getElementById(button) = (click)
+function changeMessage(message){
+      document.getElementById(par) = (message)
 }
