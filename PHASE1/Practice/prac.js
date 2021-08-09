@@ -1,1 +1,1 @@
-changeMessage('hhh')
+changeMessage('hhh');
