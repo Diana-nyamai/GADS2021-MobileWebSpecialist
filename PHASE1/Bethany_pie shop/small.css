@@ -14,7 +14,7 @@ body{
 }
 
 /* grid rules*/
-.row {clear: both; text-align: center;}
+.row {clear: both;}
 .limit{
     max-width: 1140px;
     margin: auto;
@@ -24,7 +24,22 @@ body{
 
 .small-12 {width: 100%;}
 
+/*header css*/
+header{
+    background-color: aqua;
+}
+header img{
+    float: left;
+    height: 85px;
+}
+header h1, header h2{
+    margin: 0;
+    color: white;
 
+}
+header h1{
+    padding: 1rem;
+}
 
 footer{
     background-color: aqua;
