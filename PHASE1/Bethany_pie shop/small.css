@@ -12,3 +12,20 @@ body{
     font-size: 16px;
     font-weight:300;
 }
+
+/* grid rules*/
+.row{clear: both;}
+
+.column{float:left;}
+
+
+
+footer{
+    background-color: aqua;
+    font-size: 1.2rem;
+}
+footer h2{
+    text-transform: uppercase;
+    font-style: italic;
+    margin: 1rem 0 .3rem 0;
+}
