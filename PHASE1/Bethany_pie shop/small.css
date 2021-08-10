@@ -14,7 +14,11 @@ body{
 }
 
 /* grid rules*/
-.row {clear: both;}
+.row {clear: both; text-align: center;}
+.limit{
+    max-width: 1140px;
+    margin: auto;
+}
 
 .column {float:left; padding: 0 2vw; margin: 0 0 .75rem 0;}
 
