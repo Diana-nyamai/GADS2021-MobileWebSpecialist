@@ -26,7 +26,7 @@ body{
 
 /*header rules*/
 header{
-    background-color: aqua;
+    background-color: #ffcf00;
 }
 header img{
     float: left;
@@ -46,7 +46,7 @@ header h2{
 }
 
 footer{
-    background-color: aqua;
+    background-color: #ffcf00;
     font-size: 1.2rem;
 }
 footer h2{
