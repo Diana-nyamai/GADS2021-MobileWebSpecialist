@@ -58,4 +58,5 @@ footer h2{
 .clearfix:after{
     content: "";
     display: table;
+    clear: both;
 }
