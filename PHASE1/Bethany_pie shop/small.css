@@ -44,6 +44,14 @@ header h1{
 header h2{
     padding: 0 2rem;
 }
+.clearfix ul{
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+}
+.clearfix li{
+    justify-content: space-between;
+}
 
 /* footer rules*/
 footer{
