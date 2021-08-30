@@ -47,10 +47,14 @@ header h2{
 .clearfix ul{
     display: flex;
     list-style-type: none;
-    text-decoration: none;
+    justify-content: center;
+
 }
 .clearfix li{
     justify-content: space-between;
+    text-decoration: none;
+    padding: 20px;
+    color: black;
 }
 
 /* footer rules*/
