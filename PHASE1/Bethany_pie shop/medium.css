@@ -1,4 +1,6 @@
 @media only screen and (min-width: 768px) {
-    
+    nav-container{
+        justify-content: space-around;
+    }
 
 } /*end of media query*/

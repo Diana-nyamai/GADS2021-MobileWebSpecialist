@@ -13,10 +13,42 @@ body{
     font-weight:300;
 }
 
+/* navbar css */
+.nav-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background: blueviolet;
+
+}
+.nav-container li{
+    padding: 1em;
+    display: block;
+    color: white;
+}
+.nav-container li:hover{
+    background: #1565C0;
+}
+@media all and (max-width: 600px){
+    .nav-container{
+        flex-flow: column wrap;
+        padding: 0;
+        text-align: center;
+    }
+    .nav-container li{
+        border-top: 1px solid rgba(255, 255, 255, 0.3);
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    }
+}
+
+/* container css */
 .container{
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
     list-style-type: none;
     padding: 0;
     margin: 0;
